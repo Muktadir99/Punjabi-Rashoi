@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Punjabi Rasoi - Kasba</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Raleway:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #fff8f2;
+      color: #222;
+    }
+
+    header {
+      background-color: #8B1E1E;
+      padding: 20px 15px;
+      text-align: center;
+    }
+
+    .logo {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .logo img {
+      height: 55px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      background-color: #f5d9cc;
+      padding: 10px 18px;
+      border-radius: 25px;
+      font-weight: 600;
+      color: #8B1E1E;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #ffffff;
+      color: #c0392b;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #8B1E1E;
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    h2 {
+      font-family: 'Playfair Display', serif;
+      color: #8B1E1E;
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px dashed #ccc;
+      padding: 12px 0;
+    }
+
+    .qr-code {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .qr-code img {
+      width: 180px;
+      border: 2px solid #8B1E1E;
+      border-radius: 8px;
+    }
+
+    .map {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    .map a {
+      color: #8B1E1E;
+      font-weight: 600;
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #8B1E1E;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Punjabi Rasoi Logo" />
+    </div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section>
+    <h1>Welcome to<br>Punjabi Rasoi</h1>
+    <p style="text-align:center; font-style:italic;">Where Flavor Meets Tradition</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>At Punjabi Rasoi (Kasba), we bring the soul of Punjab to the heart of Kolkata. Our dishes are crafted using traditional spices, ghee, and time-honored recipes passed down through generations. Whether it’s creamy Butter Chicken or smoky Tandoori items, you’ll find flavor, love, and hospitality in every bite.</p>
+  </section>
+
+  <section id="menu">
+    <h2>Our Menu (Sample)</h2>
+    <div class="menu-item">
+      <span>Butter Chicken</span>
+      <span>₹220</span>
+    </div>
+    <div class="menu-item">
+      <span>Paneer Tikka Masala</span>
+      <span>₹180</span>
+    </div>
+    <div class="menu-item">
+      <span>Dal Makhani</span>
+      <span>₹150</span>
+    </div>
+    <div class="menu-item">
+      <span>Chicken Tandoori (Full)</span>
+      <span>₹300</span>
+    </div>
+    <div class="menu-item">
+      <span>Jeera Rice</span>
+      <span>₹90</span>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact & Visit</h2>
+    <p><strong>📍 Address:</strong> Punjabi Rasoi, P. Mazumder Road, Kasba, Kolkata - 700042</p>
+    <p><strong>📞 Phone:</strong> +91 9876543210</p>
+    <p><strong>🕒 Hours:</strong> 11 AM – 11 PM (Everyday)</p>
+
+    <div class="map">
+      <a href="https://www.google.com/maps?q=Punjabi+Rasoi,+Kasba,+Kolkata" target="_blank">📍 View on Google Maps</a>
+    </div>
+
+    <h3 style="margin-top: 30px; color: #8B1E1E;">Pay via UPI</h3>
+    <div class="qr-code">
+      <img src="your-qr-code.png" alt="QR Code for Payment" />
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Punjabi Rasoi, Kasba. Designed with ❤️ by Muktadir.
+  </footer>
+
+</body>
+</html>
